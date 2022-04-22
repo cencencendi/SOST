@@ -5,11 +5,10 @@
 #include <linux/kernel.h>	/* Needed for KERN_INFO */
 #include <linux/init.h>		/* Needed for the macros */
 
-static int hello3_data __initdata = 3;
 
 static int __init hello_3_init(void)
 {
-	printk(KERN_INFO "Hello, world %d\n", hello3_data);
+	printk(KERN_INFO "Cendikia Ishmatuka Srihascaryasmoro (19/439607/TK/48337)\n");
 	return 0;
 }
 
